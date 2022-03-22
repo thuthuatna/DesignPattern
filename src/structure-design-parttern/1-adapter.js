@@ -1,6 +1,12 @@
 // This pattern allows classes with incompatible interfaces
 // to work together by wrapping their own interface around existing class
 
+/*
+We are using an example of a calculator. Calculator1 is an old interface 
+and Calculator2 is a new interface. We will be building an adapter that 
+will wrap up the new interface and will give us results using its 
+new methods
+*/
 class Calculator1 {
   constructor() {
     this.operations = function (value1, value2, operation) {
