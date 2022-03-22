@@ -1,3 +1,6 @@
+// It defines an interface for creating a single object and lets child classes
+//  decide which class to instantiate.
+
 CoordinateSystem = {
   CARTESIAN: 0,
   POLAR: 1,

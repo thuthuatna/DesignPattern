@@ -1,3 +1,5 @@
+// It creates families or groups of common objects without specifying
+//  their concrete classes.
 class Drink {
   cosume() {
     console.log('This is drink class');

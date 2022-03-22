@@ -1,3 +1,4 @@
+//It constructs complex objects from simple objects.
 class Person {
   constructor() {
     this.streetAddress = this.postcode = this.city = '';
